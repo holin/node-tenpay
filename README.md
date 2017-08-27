@@ -80,6 +80,9 @@
 	// Koa
 	var middleware = api.middleware();
 
+	// Koa2
+	var middleware = api.middlewareForKoa2()
+
 ## API 使用说明
 
 - 某些API预设了某些必传字段的默认值, 调用时不传参数则使用默认值
